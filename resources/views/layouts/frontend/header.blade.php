@@ -105,14 +105,14 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href="#" class="dropdown-item">Plot/flat buy & sell</a>
-                        <a href="#" class="dropdown-item">Residential & Commercial Space for Rent</a>
-                        <a href="#" class="dropdown-item">Property Legal Vetting</a>
+                        <a href="{{route('plot-flat-buy-sell')}}" class="dropdown-item">Plot/flat buy & sell</a>
+                        <a href="{{route('space-for-rent')}}" class="dropdown-item">Residential & Commercial Space for Rent</a>
+                        <a href="{{route('legal-vatting')}}" class="dropdown-item">Property Legal Vetting</a>
                         <a href="{{route('home-loan')}}" class="dropdown-item">Home Loan</a>
-                        <a href="#" class="dropdown-item">Architectural Design</a>
+                        <a href="{{route('architectural-design')}}" class="dropdown-item">Architectural Design</a>
                         <a href="{{route('interior')}}" class="dropdown-item">Interior Design</a>
-                        <a href="{{route('legal-vatting')}}" class="dropdown-item">Tax Vat & Company Affairs</a>
-                        <a href="#" class="dropdown-item">Residential & Commercial Lift</a>
+                        <a href="#" class="dropdown-item">Tax Vat & Company Affairs</a>
+                        <a href="{{route('residential-commercial-lift')}}" class="dropdown-item">Residential & Commercial Lift</a>
                     </div>
                 </div>
                 <a href="#" class="nav-item nav-link">News & Events</a>

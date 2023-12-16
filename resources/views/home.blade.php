@@ -367,12 +367,27 @@
             // Owl Carousel
             var owl = $('.owl-carousel');
             owl.owlCarousel({
-                items: 4,
+                items: 3,
                 loop: true,
                 margin: 10,
                 autoplay: true,
                 autoplayTimeout: 1000,
-                autoplayHoverPause: true
+                autoplayHoverPause: true,
+                responsive:{
+                    380:{
+                        items:1,
+                        nav:true
+                    },
+                    600:{
+                        items:2,
+                        nav:false
+                    },
+                    1000:{
+                        items:3,
+                        nav:true,
+                        loop:false
+                    }
+                }
             });
         });
     </script>

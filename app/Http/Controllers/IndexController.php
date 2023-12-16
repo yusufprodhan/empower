@@ -151,7 +151,7 @@ class IndexController extends Controller
      */
     public function legalVatting()
     {
-        $title = 'Legal Vatting';
+        $title = 'Property Legal Vatting';
         return  view('pages.services.legal-vatting',compact('title'));
     }
 
@@ -184,5 +184,48 @@ class IndexController extends Controller
     {
         $title = 'Commercial Interior';
         return  view('pages.services.commercial-interior',compact('title'));
+    }
+
+    /**
+     * Show the application architectural design.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function architecturalDesign()
+    {
+        $title = 'Architectural design';
+        return  view('pages.services.architectural-design',compact('title'));
+    }
+
+    /**
+     * Show the application plot/flat buy & sell.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function plotFlatBuySell()
+    {
+        $title = 'Plot/Flat Buy & Sell';
+        return  view('pages.services.plot-flat-buy-sell',compact('title'));
+    }
+
+    /**
+     * Show the application Residential & Commercial Space for Rent.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function spaceForRent()
+    {
+        $title = 'Residential & Commercial lift';
+        return  view('pages.services.space-for-rent',compact('title'));
+    }
+    /**
+     * Show the application Residential & Commercial Lift.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function residentialCommercialLift()
+    {
+        $title = 'Residential & Commercial lift';
+        return  view('pages.services.residential-commercial-lift',compact('title'));
     }
 }

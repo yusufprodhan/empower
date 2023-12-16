@@ -241,8 +241,9 @@ h6,
 }
 
 .page-header {
-    background: linear-gradient(to right, rgba(2, 36, 91, 1) 0%, rgba(2, 36, 91, 0) 100%), url(../img/carousel-2.jpg) center center no-repeat;
+    background: linear-gradient(to right, rgba(2, 36, 91, 1) 0%, rgba(2, 36, 91, 0) 100%), center center no-repeat;
     background-size: cover;
+    height: 400px;
 }
 
 .page-header .breadcrumb-item+.breadcrumb-item::before {
@@ -787,6 +788,10 @@ h6,
     background: linear-gradient(to right, rgb(2, 86, 55) 0%, rgba(2, 36, 91, 0) 100%), url(../images/hero/commercial-interior-hero.jpeg) center center no-repeat;
     background-size: cover;
 }
+.architectural-design-hero{
+    background: linear-gradient(to right, rgb(2, 86, 55) 0%, rgba(2, 36, 91, 0) 100%), url(../images/hero/architectural-design-hero.jpeg) center center no-repeat;
+    background-size: cover;
+}
 /* ===== all hero section end =====*/
 
 .legal-vatting-all-service-bg{
@@ -807,4 +812,8 @@ h6,
     height: 810px;
     flex-direction: column;
     color: #ffffff;
+}
+
+.owl-prev, .owl-next{
+    display: none;
 }

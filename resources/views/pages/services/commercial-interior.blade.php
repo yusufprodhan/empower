@@ -107,96 +107,95 @@
                 <h1 class="display-5">GALLERY</h1>
             </div>
             <div class="row g-4 pb-5 wow fadeInUp">
-                <div class="col-2"></div>
-                <div class="col-8">
+                <div class="col-12">
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <div class="px-3 border border-success">
+                                <div class="px-3 text-center">
                                     <img class="img-fluid"
                                          src="/frontend-assets/images/residential-interior/gallery/gallery-1.jpeg"
                                          loading="lazy">
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="px-3 border border-success">
+                                <div class="px-3 text-center">
                                     <img class="img-fluid"
                                          src="/frontend-assets/images/residential-interior/gallery/gallery-1.jpeg"
                                          loading="lazy">
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="px-3 border border-success">
+                                <div class="px-3 text-center">
                                     <img class="img-fluid"
                                          src="/frontend-assets/images/residential-interior/gallery/gallery-1.jpeg"
                                          loading="lazy">
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="px-3 border border-success">
+                                <div class="px-3 text-center">
                                     <img class="img-fluid"
                                          src="/frontend-assets/images/residential-interior/gallery/gallery-1.jpeg"
                                          loading="lazy">
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="px-3 border border-success">
+                                <div class="px-3 text-center">
                                     <img class="img-fluid"
                                          src="/frontend-assets/images/residential-interior/gallery/gallery-1.jpeg"
                                          loading="lazy">
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="px-3 border border-success">
+                                <div class="px-3 text-center">
                                     <img class="img-fluid"
                                          src="/frontend-assets/images/residential-interior/gallery/gallery-1.jpeg"
                                          loading="lazy">
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="px-3 border border-success">
+                                <div class="px-3 text-center">
                                     <img class="img-fluid"
                                          src="/frontend-assets/images/residential-interior/gallery/gallery-1.jpeg"
                                          loading="lazy">
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="px-3 border border-success">
+                                <div class="px-3 text-center">
                                     <img class="img-fluid"
                                          src="/frontend-assets/images/residential-interior/gallery/gallery-1.jpeg"
                                          loading="lazy">
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="px-3 border border-success">
+                                <div class="px-3 text-center">
                                     <img class="img-fluid"
                                          src="/frontend-assets/images/residential-interior/gallery/gallery-1.jpeg"
                                          loading="lazy">
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="px-3 border border-success">
+                                <div class="px-3 text-center">
                                     <img class="img-fluid"
                                          src="/frontend-assets/images/residential-interior/gallery/gallery-1.jpeg"
                                          loading="lazy">
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="px-3 border border-success">
+                                <div class="px-3 text-center">
                                     <img class="img-fluid"
                                          src="/frontend-assets/images/residential-interior/gallery/gallery-1.jpeg"
                                          loading="lazy">
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="px-3 border border-success">
+                                <div class="px-3 text-center">
                                     <img class="img-fluid"
                                          src="/frontend-assets/images/residential-interior/gallery/gallery-1.jpeg"
                                          loading="lazy">
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="px-3 border border-success">
+                                <div class="px-3 text-center">
                                     <img class="img-fluid"
                                          src="/frontend-assets/images/residential-interior/gallery/gallery-1.jpeg"
                                          loading="lazy">
@@ -215,7 +214,6 @@
                         </button>
                     </div>
                 </div>
-                <div class="col-2"></div>
             </div>
         </div>
     </div>

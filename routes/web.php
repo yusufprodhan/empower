@@ -14,6 +14,7 @@ use App\Http\Controllers\IndexController;
 |
 */
 
+//open pages route
 Route::get('/', [IndexController::class,'index'])->name('index');
 Route::get('our-story', [IndexController::class,'ourStory'])->name('our-story');
 Route::get('vision-mission', [IndexController::class,'visionMission'])->name('vision-mission');
@@ -30,3 +31,7 @@ Route::get('legal-vatting', [IndexController::class,'legalVatting'])->name('lega
 Route::get('interior', [IndexController::class,'interiorLanding'])->name('interior');
 Route::get('interior-residential', [IndexController::class,'interiorResidential'])->name('interior-residential');
 Route::get('interior-commercial', [IndexController::class,'interiorCommercial'])->name('interior-commercial');
+Route::get('architectural-design', [IndexController::class,'architecturalDesign'])->name('architectural-design');
+Route::get('plot-flat-buy-sell', [IndexController::class,'plotFlatBuySell'])->name('plot-flat-buy-sell');
+Route::get('space-for-rent', [IndexController::class,'spaceForRent'])->name('space-for-rent');
+Route::get('residential-commercial-lift', [IndexController::class,'residentialCommercialLift'])->name('residential-commercial-lift');
