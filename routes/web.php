@@ -33,5 +33,5 @@ Route::get('interior-residential', [IndexController::class,'interiorResidential'
 Route::get('interior-commercial', [IndexController::class,'interiorCommercial'])->name('interior-commercial');
 Route::get('architectural-design', [IndexController::class,'architecturalDesign'])->name('architectural-design');
 Route::get('plot-flat-buy-sell', [IndexController::class,'plotFlatBuySell'])->name('plot-flat-buy-sell');
-Route::get('space-for-rent', [IndexController::class,'spaceForRent'])->name('space-for-rent');
+Route::get('residential-commercial-space-for-rent', [IndexController::class,'residentialCommercialSpaceForRent'])->name('residential-commercial-space-for-rent');
 Route::get('residential-commercial-lift', [IndexController::class,'residentialCommercialLift'])->name('residential-commercial-lift');

@@ -106,7 +106,7 @@
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                     <div class="dropdown-menu bg-light m-0">
                         <a href="{{route('plot-flat-buy-sell')}}" class="dropdown-item">Plot/flat buy & sell</a>
-                        <a href="{{route('space-for-rent')}}" class="dropdown-item">Residential & Commercial Space for Rent</a>
+                        <a href="{{route('residential-commercial-space-for-rent')}}" class="dropdown-item">Residential & Commercial Space for Rent</a>
                         <a href="{{route('legal-vatting')}}" class="dropdown-item">Property Legal Vetting</a>
                         <a href="{{route('home-loan')}}" class="dropdown-item">Home Loan</a>
                         <a href="{{route('architectural-design')}}" class="dropdown-item">Architectural Design</a>

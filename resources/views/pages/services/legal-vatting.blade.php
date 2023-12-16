@@ -66,7 +66,7 @@
                         <li class="list-group-item">Foreign Power of Attorney (Registered)</li>
                         <li class="list-group-item">Sale permission from N.H.A/RAJUK/ M.P office</li>
                     </ol>
-                    <h3 class="text-black py-3">Vetting Services</h3>
+                    <h3 class="text-black py-3 text-white">Vetting Services</h3>
                     <ol class="list-group list-group-numbered">
                         <li class="list-group-item">Legal Document Vetting</li>
                         <li class="list-group-item">Document Verification</li>

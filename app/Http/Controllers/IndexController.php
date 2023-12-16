@@ -213,10 +213,10 @@ class IndexController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function spaceForRent()
+    public function residentialCommercialSpaceForRent()
     {
-        $title = 'Residential & Commercial lift';
-        return  view('pages.services.space-for-rent',compact('title'));
+        $title = 'Residential & Commercial Space For Rent';
+        return  view('pages.services.residential-commercial-space-for-rent',compact('title'));
     }
     /**
      * Show the application Residential & Commercial Lift.

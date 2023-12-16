@@ -103,7 +103,7 @@
                                     style="height: 90px;">
                                     <h5>Uttara</h5>
                                     <div class="team-social">
-                                        <h4 class="ms-2">Uttara</h4>
+                                        <h4 class="ms-2 text-white">Uttara</h4>
                                     </div>
                                 </div>
                             </div>
@@ -122,7 +122,7 @@
                                     style="height: 90px;">
                                     <h5>Bashundhara R/A</h5>
                                     <div class="team-social">
-                                        <h4 class="ms-2">Bashundhara R/A</h4>
+                                        <h4 class="ms-2 text-white">Bashundhara R/A</h4>
                                     </div>
                                 </div>
                             </div>
@@ -141,7 +141,7 @@
                                     style="height: 90px;">
                                     <h5>Jalshiri Abason</h5>
                                     <div class="team-social">
-                                        <h4 class="ms-2">Jalshiri Abason</h4>
+                                        <h4 class="ms-2 text-white">Jalshiri Abason</h4>
                                     </div>
                                 </div>
                             </div>
@@ -160,7 +160,7 @@
                                     style="height: 90px;">
                                     <h5>Purbachal New Town</h5>
                                     <div class="team-social">
-                                        <h4 class="ms-2">Purbachal New Town</h4>
+                                        <h4 class="ms-2 text-white">Purbachal New Town</h4>
                                     </div>
                                 </div>
                             </div>
@@ -179,7 +179,7 @@
                                     style="height: 90px;">
                                     <h5>Purbachal American City</h5>
                                     <div class="team-social">
-                                        <h4 class="ms-2">Purbachal American City</h4>
+                                        <h4 class="ms-2 text-white">Purbachal American City</h4>
                                     </div>
                                 </div>
                             </div>
