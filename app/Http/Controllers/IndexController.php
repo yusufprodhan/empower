@@ -228,4 +228,15 @@ class IndexController extends Controller
         $title = 'Residential & Commercial lift';
         return  view('pages.services.residential-commercial-lift',compact('title'));
     }
+
+    /**
+     * Show the application Residential & Commercial Lift.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function sendMainByLandOwner(Request $request)
+    {
+//       dd($request->input());
+        return true;
+    }
 }

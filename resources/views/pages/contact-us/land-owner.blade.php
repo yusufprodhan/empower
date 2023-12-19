@@ -47,52 +47,53 @@
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s">
                 <h1 class="display-5 mb-5">Meet The Professionals</h1>
             </div>
-            <form class="form mb-5" method="get" enctype="multipart/form-data">
+            <form class="land-owner-form mb-5" action="{{route('land-owner-mail-request')}}" method="post" enctype="multipart/form-data">
+                @csrf
                 <div class="row">
                     <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <h4 class="text-body">Land Information</h4>
                         <div class="form-floating mb-4" style="border:2px solid green;">
-                            <input type="text" class="form-control" id="locality" name="locality">
-                            <label for="locality">Locality</label>
+                            <input type="text" class="form-control" id="locality" name="locality" required>
+                            <label for="locality">Locality <span class="text-danger">*</span></label>
                         </div>
                         <div class="form-floating mb-4" style="border:2px solid green;">
-                            <input type="text" class="form-control" id="address" name="address">
-                            <label for="address">Address</label>
+                            <input type="text" class="form-control" id="address" name="address" required>
+                            <label for="address">Address <span class="text-danger">*</span></label>
                         </div>
                         <div class="form-floating mb-4" style="border:2px solid green;">
-                            <input type="text" class="form-control" id="size-land" name="size-land">
-                            <label for="size-land">Size of the land</label>
+                            <input type="text" class="form-control" id="size-land" name="size-land" required>
+                            <label for="size-land">Size of the land <span class="text-danger">*</span></label>
                         </div>
                         <div class="form-floating mb-4" style="border:2px solid green;">
-                            <input type="text" class="form-control" id="in-front-road-width" name="in-front-road-width">
-                            <label for="in-front-road-width">Width of the road in front(In feet)</label>
+                            <input type="text" class="form-control" id="in-front-road-width" name="in-front-road-width" required>
+                            <label for="in-front-road-width">Width of the road in front(In feet) <span class="text-danger">*</span></label>
                         </div>
                         <div class="form-floating mb-4" style="border:2px solid green;">
-                            <select class="form-select" id="category-land" name="category-land">
+                            <select class="form-select" id="category-land" name="category-land" required>
                                 <option selected>Select</option>
-                                <option value="1">Freehold</option>
-                                <option value="3">Leasehold</option>
+                                <option value="Freehold">Freehold</option>
+                                <option value="Leasehold">Leasehold</option>
                             </select>
-                            <label for="category-land">Category of land</label>
+                            <label for="category-land">Category of land <span class="text-danger">*</span></label>
                         </div>
                         <div class="form-floating mb-4" style="border:2px solid green;">
-                            <select class="form-select" id="facing" name="facing">
+                            <select class="form-select" id="facing" name="facing" required>
                                 <option selected>Select</option>
-                                <option value="1">East</option>
-                                <option value="3">West</option>
-                                <option value="3">North</option>
-                                <option value="3">South</option>
+                                <option value="East">East</option>
+                                <option value="West">West</option>
+                                <option value="North">North</option>
+                                <option value="South">South</option>
                             </select>
-                            <label for="facing">Facing</label>
+                            <label for="facing">Facing <span class="text-danger">*</span></label>
                         </div>
                         <div class="form-floating" style="border:2px solid green;">
                             <select class="form-select" id="attractive-features" name="attractive-features">
                                 <option selected>Select</option>
-                                <option value="1">Lakeside</option>
-                                <option value="3">Corner Plot</option>
-                                <option value="3">Park View</option>
-                                <option value="3">Main Road</option>
-                                <option value="3">Others</option>
+                                <option value="Lakeside">Lakeside</option>
+                                <option value="Corner Plot">Corner Plot</option>
+                                <option value="Park View">Park View</option>
+                                <option value="Main Road">Main Road</option>
+                                <option value="Others">Others</option>
                             </select>
                             <label for="attractive-features">Attractive features (if any)</label>
                         </div>
@@ -100,26 +101,61 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                         <h4 class="text-body">Landowners Profile</h4>
                         <div class="form-floating mb-4" style="border:2px solid green;">
-                            <input type="text" class="form-control" id="name-landowner" name="name-landowner">
-                            <label for="name-landowner">Name of the landowner</label>
+                            <input type="text" class="form-control" id="name-landowner" name="name-landowner" required>
+                            <label for="name-landowner">Name of the landowner <span class="text-danger">*</span></label>
                         </div>
                         <div class="form-floating mb-4" style="border:2px solid green;">
-                            <input type="text" class="form-control" id="contact-person" name="contact-person" >
-                            <label for="contact-person">Contact person</label>
+                            <input type="text" class="form-control" id="contact-person" name="contact-person" required>
+                            <label for="contact-person">Contact person <span class="text-danger">*</span></label>
                         </div>
                         <div class="form-floating mb-4" style="border:2px solid green;">
-                            <input type="text" class="form-control" id="email-id" name="email-id" >
-                            <label for="email-id">EmailID</label>
+                            <input type="text" class="form-control" id="email-id" name="email-id" required>
+                            <label for="email-id">EmailID <span class="text-danger">*</span></label>
                         </div>
                         <div class="form-floating mb-4" style="border:2px solid green;">
-                            <input type="text" class="form-control" id="contact-number" name="contact-number" >
-                            <label for="contact-number">Contact number</label>
+                            <input type="text" class="form-control" id="contact-number" name="contact-number" required>
+                            <label for="contact-number">Contact number <span class="text-danger">*</span></label>
                         </div>
-                        <button class="btn btn-success py-3 px-5 mt-2 float-end" type="submit">Send</button>
+                        <button class="btn btn-success py-3 px-5 mt-2 float-end " type="submit">Send</button>
+                    </div>
+                    <div class="col-12">
+                        <div class="print-error-msg">
+                            <ul></ul>
+                        </div>
+                        <div class="print-success-msg text-success"></div>
                     </div>
                 </div>
             </form>
         </div>
         <!-- project End -->
 @endsection
+@section('page-script')
+    <script>
+        $(function () {
+            $('.land-owner-form').submit(function(e) {
+                e.preventDefault();
 
+                var url = $(this).attr("action");
+                let formData = new FormData(this);
+                $.ajax({
+                    type:'POST',
+                    url: url,
+                    data: formData,
+                    contentType: false,
+                    processData: false,
+                    success: (response) => {
+                        $('.land-owner-form').find(".print-success-msg").find("ul").html('Request submitted successfully.');
+                        location.reload();
+                    },
+                    error: function(response){
+                        $('.land-owner-form').find(".print-error-msg").find("ul").html('');
+                        $('.land-owner-form').find(".print-error-msg").css('display','block');
+                        $.each( response.responseJSON.errors, function( key, value ) {
+                            $('.land-owner-form').find(".print-error-msg").find("ul").append('<li>'+value+'</li>');
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+@endsection
