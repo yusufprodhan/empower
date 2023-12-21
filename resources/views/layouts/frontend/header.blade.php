@@ -31,6 +31,25 @@
 
     <!-- Template Stylesheet -->
     <link href="/frontend-assets/css/style.css" rel="stylesheet">
+    <!-- Meta Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window,document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '342515461750712');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1"
+             src="https://www.facebook.com/tr?id=342515461750712&ev=PageView
+&noscript=1"/>
+    </noscript>
+    <!-- End Meta Pixel Code -->
 </head>
 
 <body>
@@ -105,14 +124,14 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href="{{route('plot-flat-buy-sell')}}" class="dropdown-item">Plot/flat buy & sell</a>
-                        <a href="{{route('residential-commercial-space-for-rent')}}" class="dropdown-item">Residential & Commercial Space for Rent</a>
-                        <a href="{{route('legal-vatting')}}" class="dropdown-item">Property Legal Vetting</a>
+                        <a href="{{route('plot-flat-buy-sell')}}" class="dropdown-item">Buy & Sell</a>
+                        <a href="{{route('residential-commercial-space-for-rent')}}" class="dropdown-item">Rent</a>
+                        <a href="{{route('legal-vatting')}}" class="dropdown-item">Legal Vetting</a>
                         <a href="{{route('home-loan')}}" class="dropdown-item">Home Loan</a>
                         <a href="{{route('architectural-design')}}" class="dropdown-item">Architectural Design</a>
                         <a href="{{route('interior')}}" class="dropdown-item">Interior Design</a>
                         <a href="#" class="dropdown-item">Tax Vat & Company Affairs</a>
-                        <a href="{{route('residential-commercial-lift')}}" class="dropdown-item">Residential & Commercial Lift</a>
+                            <a href="{{route('residential-commercial-lift')}}" class="dropdown-item">Lift/Elevator & Escalator</a>
                     </div>
                 </div>
                 <a href="#" class="nav-item nav-link">News & Events</a>

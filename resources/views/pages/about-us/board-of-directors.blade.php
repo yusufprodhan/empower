@@ -21,7 +21,7 @@
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <h3 class=" mb-4">Message From Managing Director</h3>
-                    <h4 class="">Mr. MI Moeen</h4>
+                    <h4 class="">Mr M I Moeen</h4>
                     <h5 class=" mb-4 mt-0">Managing Director Empower Developments Ltd.</h5>
                     <p class="mb-4">A distinguished and perceptive entrepreneur, Mr. M I Moeen the founder promoter of Empower Developments Ltd opts to do business by providing world-class products and services in Bangladesh. With his visionary leadership and extensive business knowledge, Empower Developments Ltd drives forward to not only provide superior quality products and services but to demonstrate unparalleled foresight by developing iconic projects which are the epitome of modern architecture, safe, functional and comfortable living.</p>
                     <p class="mb-4">The reputation and success of Empower Developments Ltd are testaments to his strong ethics and relentless focus on quality, innovation and social responsibility.</p>
