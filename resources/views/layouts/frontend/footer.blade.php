@@ -15,11 +15,12 @@
             </div>
             <div class="col-lg-2 col-md-6">
                 <h5 class="text-white mb-4">Quick Links</h5>
-                <a class="btn btn-link text-white" href="">About Us</a>
-                <a class="btn btn-link text-white" href="">Contact Us</a>
-                <a class="btn btn-link text-white" href="">Our Services</a>
+                <a class="btn btn-link text-white" href="{{route('board-of-directors')}}">About Us</a>
+                <a class="btn btn-link text-white" href="{{route('contact-us')}}">Contact Us</a>
+                <a class="btn btn-link text-white" href="{{route('plot-flat-buy-sell')}}">Our Services</a>
                 <a class="btn btn-link text-white" href="">Terms & Condition</a>
-                <a class="btn btn-link text-white" href="">Support</a>
+                <a class="btn btn-link text-white" href="{{route('privacy-policy')}}">Privacy & Policy</a>
+                <a class="btn btn-link text-white" href="{{route('contact-us')}}">Support</a>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-white mb-4">Social Media</h5>

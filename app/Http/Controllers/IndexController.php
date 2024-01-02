@@ -234,6 +234,17 @@ class IndexController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function privacyPolicy()
+    {
+        $title = 'Privacy & Policy';
+        return  view('pages.privacy-policy',compact('title'));
+    }
+
+    /**
+     * Show the application Residential & Commercial Lift.
+     *
+     * @return \Illuminate\Http\Response
+     */
     public function sendMainByLandOwner(Request $request)
     {
 //       dd($request->input());

@@ -35,6 +35,7 @@ Route::get('architectural-design', [IndexController::class,'architecturalDesign'
 Route::get('plot-flat-buy-sell', [IndexController::class,'plotFlatBuySell'])->name('plot-flat-buy-sell');
 Route::get('residential-commercial-space-for-rent', [IndexController::class,'residentialCommercialSpaceForRent'])->name('residential-commercial-space-for-rent');
 Route::get('residential-commercial-lift', [IndexController::class,'residentialCommercialLift'])->name('residential-commercial-lift');
+Route::get('privacy-policy', [IndexController::class,'privacyPolicy'])->name('privacy-policy');
 
 //send mail request
 Route::post('land-owner-mail-request',[IndexController::class,'sendMainByLandOwner'])->name('land-owner-mail-request');
